@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello Lauren...</h1>
-<h2>I'm a tech wizard!!!!!</h2>
-<p></p>
+<h1>Button Control</h1>
+<button onclick="switchOn()">On</button>
+<button onclick="switchOff()">Off</button>
+<p id="p1">Off</p>
+<script>
+function switchOn(){
+	document.getElementById("p1").innerHTML = "On";
+}
+function switchOff(){
+	document.getElementById("p1").innerHTML = "Off";
+}
+</script>
 </body>
 </html>
